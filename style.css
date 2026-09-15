@@ -89,6 +89,7 @@ h2 {
   font-size: 32px;
   margin-bottom: 32px;
   text-align:center;
+  
 }
 button {
   cursor: pointer;
@@ -139,4 +140,25 @@ HIGHLIGHTS
   align-items: center;
   justify-content:center;
   flex-direction:column;
+ }
+ .highlight__para {
+  text-align:center;
+
+ }
+ .highlight__image {
+  border: 2px solid #8b7cff7e;
+  color:#8b7cff;
+  width:100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 4px;
+  font-size: 32px;
+  margin-bottom: 24px;
+ }
+ .highlight__subtitle {
+  font-size: 20px;
+  margin-bottom:16px;
+
  }
