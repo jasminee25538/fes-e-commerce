@@ -28,26 +28,26 @@
             <a href="#"class="nav__link nav__link--primary">Books</a>
           </li>
         </ul>
-      </div>
-      <button class="btn__menu">
+      
+      <button class="btn__menu" onclick="openMenu()">
         <i class="fa-solid fa-bars"></i>
       </button>
       <div class="menu__backdrop">
-        <button class="btn__menu btn__menu--close">
+        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
           <i class="fa-solid fa-xmark"></i>
         </button>
         <ul class="menu__links">
           <li class="menu__list">
-            <a href="#" class="menu__link">Home</a></li> 
+            <a href="#" class="menu__link" onclick="closeMenu()">Home</a></li> 
 
            <li class="menu__list">
-            <a href="#features" class="menu__link">Books</a></li>
+            <a href="#features" class="menu__link" onclick="closeMenu()">Books</a></li>
 
             <li class="menu__list">
-              <a class="menu__link no-cursor">Contact</a></li>
+              <a class="menu__link no-cursor" onclick="closeMenu()">Contact</a></li>
         </ul>
       </div>
-
+      </div>
     </nav>
     <header>
       <div class="header__container">
@@ -55,7 +55,9 @@
 
           <h1>America's most awarded online library platform</h1>
           <h2>Find your dream book with <span class=text__purple>Library</span></h2>
+          <a href="#features">
           <button class="btn">Browse Books</button>
+          </a>
         </div>
         <figure class="header__image--wrapper">
           <img src="assets/Undraw_Books.svg">
